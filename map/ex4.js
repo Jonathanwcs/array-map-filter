@@ -1,4 +1,4 @@
-/* Array.prototype.map - Exercice 4
+/* Array.prototype.map - Exercice n 4
 
 Ecrire une fonction getCirclesProperties, qui prend en entrée un tableau de nombres (entiers ou non),
 représentant les rayons de cercles, et calcule, pour chacun, la circonférence et la surface de ces cercles.
