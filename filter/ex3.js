@@ -24,6 +24,8 @@ Sortie attendue:
  */
 
 function keepStarks(names) {
+  let tab = names.filter(arg => arg.endsWith("Stark"));
+  return tab;
 }
 
 // Ne pas modifier l'export

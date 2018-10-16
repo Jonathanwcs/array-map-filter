@@ -29,6 +29,8 @@ Sortie attendue:
  */
 
 function filterOnPrice(products, maxPrice) {
+  let tab = products.filter(arg => arg.price <= maxPrice );
+  return tab;
 }
 
 // Ne pas modifier l'export

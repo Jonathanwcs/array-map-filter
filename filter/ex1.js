@@ -12,6 +12,8 @@ Sortie attendue:
  */
 
 function getPositiveNumbers(numbers) {
+  let tab = numbers.filter(arg => arg >= 0);
+  return tab;
 }
 
 // Si besoin, tu peux toujours visualiser le résultat avec console.log,

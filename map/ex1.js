@@ -22,6 +22,8 @@ En sortie: [
  */
 
 function getStringsLength(strings) {
+  const tab = strings.map(arg => `${arg} contains ${arg.length} characters`);
+  return tab;
 }
 
 // Si besoin, tu peux toujours visualiser le résultat avec console.log,
